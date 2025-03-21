@@ -1,0 +1,96 @@
+* {
+  background-color: deeppink;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  padding: 1em;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+#navbar a:hover {
+  background-color: #555;
+}
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-color: crimson;
+  color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.blue {
+  background-color: deepskyblue;
+  color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.home {
+  background-color: deeppink;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.green {
+  background-color: greenyellow;
+  color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.yellow {
+  background-color: gold;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+#footer {
+  color: yellow;
+  padding: 1em;
+  text-align: center;
+  background-color: blue;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer a {
+  text-decoration: none;
+  color: yellow;
+}
